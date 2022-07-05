@@ -22,6 +22,9 @@ class MainActivity : AppCompatActivity() {
 
         // View Binding 기법 이용
         val binding = ActivityMainBinding.inflate(layoutInflater)
+
+        binding.notificationButton.text = "hello guys!" // 잘 변경 되네요 ㅎㅎ
+
         setContentView(binding.root)
 
         // activity_main.xml의 Button에 click event 설정

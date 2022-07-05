@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Ch11_JetPack</string>
+
+    <!--드로어 레이아웃의 상태를 표현하기 위한 문자열 등록-->
+    <string name="drawer_opened">Opened Drawer</string>
+    <string name="drawer_closed">Closed Drawer</string>
+</resources>
