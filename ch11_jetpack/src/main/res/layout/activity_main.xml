@@ -17,15 +17,14 @@
             android:id="@+id/toolbar"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="?attr/colorPrimary"
-            /> <!--이 부분이 추가되니 화면 상단의 파란색 부분이 생김-->
+            android:background="?attr/colorPrimary" />
+        <!--이 부분이 추가되니 화면 상단의 파란색 부분이 생김-->
 
         <androidx.viewpager2.widget.ViewPager2
             android:id="@+id/viewpager"
             android:layout_width="match_parent"
             android:layout_height="match_parent" />
     </LinearLayout>
-
 
     <TextView
         android:layout_width="300dp"
